@@ -1,0 +1,39 @@
+
+body{
+    background-image: url("../img/cool-background.png");
+}
+
+.container{
+    background-color: rgb(102, 208, 102);
+    width: 70%;
+    margin: auto;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.container form{
+    display:  flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: center;
+    margin: auto;
+}
+input,textarea,button{
+    padding: 0.3rem;
+    border:1px solid rgba(0,0,0,0.2);
+    font-size: 1.2rem;
+    border-radius:5px;
+    outline:none;
+    margin:0.5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+   }
+
+
+   button{
+    cursor: pointer;
+    background-color: rgb(89, 89, 161);
+   }
+   button:hover{
+    background-color: rgb(71, 71, 216);
+   }
